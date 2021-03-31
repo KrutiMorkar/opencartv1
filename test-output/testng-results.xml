@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-30T23:54:18 IST" name="OpenCart Test Suite" finished-at="2021-03-30T23:54:58 IST" duration-ms="39884">
+  <suite name="OpenCart Test Suite" duration-ms="36364" started-at="2021-03-31T19:16:03 IST" finished-at="2021-03-31T19:16:40 IST">
     <groups>
     </groups>
-    <test started-at="2021-03-30T23:54:18 IST" name="OpenCart Tests" finished-at="2021-03-30T23:54:58 IST" duration-ms="39884">
-      <class name="testCases.TC_002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@6253c26]" started-at="2021-03-30T23:54:47 IST" name="setup" finished-at="2021-03-30T23:54:49 IST" duration-ms="1870" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@6253c26]" started-at="2021-03-30T23:54:49 IST" name="test_Login" finished-at="2021-03-30T23:54:57 IST" duration-ms="8225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@6253c26]" started-at="2021-03-30T23:54:57 IST" name="tearDown" finished-at="2021-03-30T23:54:58 IST" duration-ms="888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_Login -->
+    <test name="OpenCart Tests" duration-ms="36364" started-at="2021-03-31T19:16:03 IST" finished-at="2021-03-31T19:16:40 IST">
       <class name="testCases.TC_001_AccountRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@67f639d3]" started-at="2021-03-30T23:54:19 IST" name="setup" finished-at="2021-03-30T23:54:34 IST" duration-ms="14424" status="PASS">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@954b04f]" name="setup" is-config="true" duration-ms="14928" started-at="2021-03-31T19:16:04 IST" finished-at="2021-03-31T19:16:19 IST">
           <params>
             <param index="0">
               <value>
@@ -39,15 +18,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_accout_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@67f639d3]" started-at="2021-03-30T23:54:34 IST" name="test_accout_Registration" finished-at="2021-03-30T23:54:46 IST" duration-ms="12484" status="PASS">
+        <test-method status="PASS" signature="test_accout_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@954b04f]" name="test_accout_Registration" duration-ms="8205" started-at="2021-03-31T19:16:19 IST" finished-at="2021-03-31T19:16:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_accout_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@67f639d3]" started-at="2021-03-30T23:54:46 IST" name="tearDown" finished-at="2021-03-30T23:54:47 IST" duration-ms="977" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@954b04f]" name="tearDown" is-config="true" duration-ms="1074" started-at="2021-03-31T19:16:28 IST" finished-at="2021-03-31T19:16:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_AccountRegistration -->
+      <class name="testCases.TC_002_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@149494d8]" name="setup" is-config="true" duration-ms="1883" started-at="2021-03-31T19:16:29 IST" finished-at="2021-03-31T19:16:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_002_Login@149494d8]" name="test_Login" duration-ms="8009" started-at="2021-03-31T19:16:31 IST" finished-at="2021-03-31T19:16:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@149494d8]" name="tearDown" is-config="true" duration-ms="771" started-at="2021-03-31T19:16:39 IST" finished-at="2021-03-31T19:16:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Login -->
     </test> <!-- OpenCart Tests -->
   </suite> <!-- OpenCart Test Suite -->
 </testng-results>
