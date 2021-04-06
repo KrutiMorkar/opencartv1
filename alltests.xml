@@ -8,9 +8,13 @@
 	<test name="OpenCart Tests">
 	<parameter name="browser" value="chrome"/>
 		<classes>
-			<class name="testCases.TC_001_AccountRegistration"/>
-			<class name="testCases.TC_002_Login"/> 
+			<!--   <class name="testCases.TC_001_AccountRegistration"/> -->
+		 	<!--  <class name="testCases.TC_002_Login"/>--> 
 			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
+			<!-- <class name="testCases.TC_004_Logout"/> -->
+			<!-- <class name="testCases.TC_004_Logout_2"/> -->
+			<!-- <class name="testCases.TC_004_Logout_3"/> -->
+				<class name="testCases.TC_005_Forgottenpaswd"/>
 		</classes>
 	
 	</test>

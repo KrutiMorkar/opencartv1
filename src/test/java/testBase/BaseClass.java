@@ -56,7 +56,6 @@ public class BaseClass {
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 			logger.info("Launched Firefox Browser");
-		
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}

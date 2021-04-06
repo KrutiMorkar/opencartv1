@@ -27,7 +27,8 @@ public class LoginPage {
 	@FindBy(xpath="//h2[text()='My Account']")
 	WebElement msgHeading;
 	
-	
+	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
+	WebElement forgottenpswd;
 	
 	public void setEmail(String email)
 	{
@@ -53,6 +54,11 @@ public class LoginPage {
 		{
 			return(false);
 		}
+	}
+	
+	public void clickforgottenpaswd()
+	{
+		forgottenpswd.click();
 	}
 	
 }

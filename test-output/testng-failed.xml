@@ -7,13 +7,13 @@
   <test thread-count="5" name="OpenCart Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
+      <class name="testCases.TC_005_Forgottenpaswd">
         <methods>
+          <include name="test_Login"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="test_LoginDDT"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.TC_005_Forgottenpaswd -->
     </classes>
   </test> <!-- OpenCart Tests(failed) -->
 </suite> <!-- Failed suite [OpenCart Test Suite] -->

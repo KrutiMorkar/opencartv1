@@ -13,6 +13,7 @@ WebDriver driver;
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
+		
 	}
 	
 	@FindBy(xpath="//span[text()='My Account']")
@@ -25,7 +26,18 @@ WebDriver driver;
 	@FindBy(linkText="Login")
 	WebElement lnkLogin;
 	
-		
+	@FindBy(xpath="//title[normalize-space()='Your Store']")
+	WebElement homepagetitle;
+	
+	@FindBy(xpath="//a[@title='My Account']")
+	WebElement acc_login;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='My Account']")
+	WebElement my_account;
+	
+	@FindBy(xpath="//ul[@class='list-inline']//li[@class='dropdown']")
+	WebElement myacc_logout;
+	
 	public void clickMyAccount()
 	{
 		lnkMyaccount.click();
@@ -40,5 +52,29 @@ WebDriver driver;
 	{
 		lnkLogin.click();
 	
-}
+	}
+	
+	public void myacc()
+	{
+		myacc_logout.click();
+	}
+	/*public boolean validateURL(WebDriver driver,String expURL)
+	{
+		boolean result = false;
+		if(driver.getCurrentUrl().equalsIgnoreCase(expURL))
+		{
+			result=true;
+		}
+		return result;
+	}*/
+	/*public void click_acc() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		acc_login.click();
+	}*/
+	
+	public void my_acc()
+	{
+		my_account.click();
+	}
 }
