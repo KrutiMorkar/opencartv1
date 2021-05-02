@@ -14,7 +14,8 @@
 			<!-- <class name="testCases.TC_004_Logout"/> -->
 			<!-- <class name="testCases.TC_004_Logout_2"/> -->
 			<!-- <class name="testCases.TC_004_Logout_3"/> -->
-				<class name="testCases.TC_005_Forgottenpaswd"/>
+			<!-- <class name="testCases.TC_005_Forgottenpaswd"/> -->
+				<class name="testCases.TC_006_Search"/>
 		</classes>
 	
 	</test>

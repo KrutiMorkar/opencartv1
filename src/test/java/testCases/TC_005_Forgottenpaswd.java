@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_005_Forgottenpaswd extends BaseClass {
 
 	@Test
-	public void test_Login()
+	public void test_forgottenpassword()
 	{
 		logger.info(" Starting TC_005_Forgottenpaswrd ");
 		

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="OpenCart Test Suite" duration-ms="22995" started-at="2021-04-06T00:57:08 IST" finished-at="2021-04-06T00:57:31 IST">
+  <suite name="OpenCart Test Suite" duration-ms="25222" started-at="2021-05-02T15:49:51 IST" finished-at="2021-05-02T15:50:16 IST">
     <groups>
     </groups>
-    <test name="OpenCart Tests" duration-ms="22995" started-at="2021-04-06T00:57:08 IST" finished-at="2021-04-06T00:57:31 IST">
-      <class name="testCases.TC_005_Forgottenpaswd">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Forgottenpaswd@4d1b0d2a]" name="setup" is-config="true" duration-ms="5742" started-at="2021-04-06T00:57:09 IST" finished-at="2021-04-06T00:57:14 IST">
+    <test name="OpenCart Tests" duration-ms="25222" started-at="2021-05-02T15:49:51 IST" finished-at="2021-05-02T15:50:16 IST">
+      <class name="testCases.TC_006_Search">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_Search@4d1b0d2a]" name="setup" is-config="true" duration-ms="11830" started-at="2021-05-02T15:49:53 IST" finished-at="2021-05-02T15:50:05 IST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_005_Forgottenpaswd@4d1b0d2a]" name="test_Login" duration-ms="15862" started-at="2021-04-06T00:57:14 IST" finished-at="2021-04-06T00:57:30 IST">
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_006_Search@4d1b0d2a]" name="test_Login" duration-ms="9981" started-at="2021-05-02T15:50:05 IST" finished-at="2021-05-02T15:50:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_005_Forgottenpaswd@4d1b0d2a]" name="tearDown" is-config="true" duration-ms="828" started-at="2021-04-06T00:57:30 IST" finished-at="2021-04-06T00:57:31 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_006_Search@4d1b0d2a]" name="tearDown" is-config="true" duration-ms="903" started-at="2021-05-02T15:50:15 IST" finished-at="2021-05-02T15:50:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_005_Forgottenpaswd -->
+      </class> <!-- testCases.TC_006_Search -->
     </test> <!-- OpenCart Tests -->
   </suite> <!-- OpenCart Test Suite -->
 </testng-results>

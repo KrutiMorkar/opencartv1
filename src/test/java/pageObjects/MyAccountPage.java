@@ -2,7 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -30,6 +30,12 @@ WebDriver driver;
 	
 	@FindBy(xpath="//a[@title='My Account']")
 	WebElement acc_login;
+	
+	@FindBy(name="search")
+	WebElement searchbox;
+	
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	WebElement searchbtn;
 	
 	public void clickLogout()
 	{
@@ -61,4 +67,13 @@ WebDriver driver;
 		acc_login.click();
 	}
 	
+	public void search_box(String value)
+	{
+		searchbox.sendKeys(value);
+	}
+	
+	public void search_btn()
+	{
+		searchbtn.click();
+	}
 }
